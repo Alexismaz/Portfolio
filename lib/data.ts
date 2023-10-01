@@ -2,9 +2,9 @@ import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
-import corpcommentImg from "@/public/corpcomment.png";
-import rmtdevImg from "@/public/rmtdev.png";
-import wordanalyticsImg from "@/public/wordanalytics.png";
+import imageHyperAdmin from "../public/874e7a9a-b4ef-4830-a9c7-eb19394d2578.jpg"
+import imageHyperEvents from "../public/641ee185-9e5b-4333-a7ab-3ffb685fc63a.jpg"
+import imagePI from "../public/641ee185-9e5b-4333-a7ab-3ffb685fc63a.jpg"
 
 export const links = [
   {
@@ -62,25 +62,25 @@ export const experiencesData = [
 
 export const projectsData = [
   {
-    title: "CorpComment",
+    title: "HyperEvents Admin",
     description:
-      "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
-    tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
-    imageUrl: corpcommentImg,
+      "I worked as a full-stack developer on this project for 2 months. It's an admin dashboard for the HyperEvents platform. It was created in a separate repository to add more control and security.",
+    tags: ["React", "Next.js", "Typescript", "Tailwind", "Prisma"],
+    imageUrl: imageHyperAdmin,
   },
   {
-    title: "rmtDev",
+    title: "HyperEvents",
     description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
-    imageUrl: rmtdevImg,
+      "I worked as a full-stack developer on this project for 2 months. It's a platform for buying and selling tickets for all types of events. It's not finished yet.",
+    tags: ["React", "Next.js", "Toaster", "Tailwind", "Redux"],
+    imageUrl: imageHyperEvents,
   },
   {
-    title: "Word Analytics",
+    title: "PI Foods",
     description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
-    imageUrl: wordanalyticsImg,
+      "This is my second project, where I was able to implement everything I learned in the SoyHenry bootcamp individually. It's a Single Page Application (SPA) in which recipe data is consumed from an API to display and sort them, and you can also create recipes.",
+    tags: ["React", "Node.js", "Redux", "CSS"],
+    imageUrl: imagePI,
   },
 ] as const;
 
@@ -95,13 +95,7 @@ export const skillsData = [
   "Git",
   "Tailwind",
   "Prisma",
-  "MongoDB",
   "Redux",
-  "GraphQL",
-  "Apollo",
   "Express",
   "PostgreSQL",
-  "Python",
-  "Django",
-  "Framer Motion",
 ] as const;
