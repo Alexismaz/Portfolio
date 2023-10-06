@@ -67,6 +67,7 @@ export const projectsData = [
       "I worked as a full-stack developer on this project for 2 months. It's an admin dashboard for the HyperEvents platform. It was created in a separate repository to add more control and security.",
     tags: ["React", "Next.js", "Typescript", "Tailwind", "Prisma"],
     imageUrl: imageHyperAdmin,
+    link: "https://hyper-admin-sigma.vercel.app/"
   },
   {
     title: "HyperEvents",
@@ -74,6 +75,7 @@ export const projectsData = [
       "I worked as a full-stack developer on this project for 2 months. It's a platform for buying and selling tickets for all types of events. It's not finished yet.",
     tags: ["React", "Next.js", "Toaster", "Tailwind", "Redux"],
     imageUrl: imageHyperEvents,
+    link: "https://hyperevent-fe.vercel.app/"
   },
   {
     title: "PI Foods",
@@ -81,6 +83,7 @@ export const projectsData = [
       "This is my second project, where I was able to implement everything I learned in the SoyHenry bootcamp individually. It's a Single Page Application (SPA) in which recipe data is consumed from an API to display and sort them, and you can also create recipes.",
     tags: ["React", "Node.js", "Redux", "CSS"],
     imageUrl: imagePI,
+    link: "https://pi-food-main-woad.vercel.app"
   },
 ] as const;
 
