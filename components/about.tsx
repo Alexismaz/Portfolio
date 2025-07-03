@@ -21,15 +21,15 @@ export default function About() {
       <p className="mb-3">
       I have completed 2 years of {" "}
         <span className="font-medium">Computer Science</span> studies. Due to personal reasons, I couldn't continue, but I plan to resume as soon as I can. I worked in the culinary field for 6 years until I returned to my passion, which is programming. I enrolled in a coding bootcamp and learned{" "}
-        <span className="font-medium">full-stack web development</span>.{" "}
+        <span className="font-medium">semi-senior full-stack development</span>.{" "}
         <span className="italic">My favorite part of programming</span> is the
         problem-solving aspect. I <span className="underline">love</span> the
         feeling of finally figuring out a solution to a problem. My core stack
         is{" "}
         <span className="font-medium">
-          React, Next.js, Node.js, and PostgreSQL
+          React, Redux, Next.js, TypeScript, Tailwind CSS, TypeORM, JWT, Node.js, NestJs and PostgreSQL
         </span>
-        . I am also familiar with TypeScript and Prisma. I am always looking to
+        . I am also familiar with Open AI, Swagger, React Native and Prisma. I am always looking to
         learn new technologies. I am currently looking for a{" "}
         <span className="font-medium">full-time position</span> as a software
         developer.
@@ -40,8 +40,7 @@ export default function About() {
         video games, watching movies, and playing with my cat. I also enjoy{" "}
         <span className="font-medium">learning new things</span>. I am currently
         learning about{" "}
-        <span className="font-medium">NestJs</span>. I'm also studying TypeScript to fully grasp this language.
-        My goal is to learn mobile app development and AWS as well.
+        <span className="font-medium">Cryptography</span>. I'm also studying blockchain to strengthen my knowledge of secure and decentralized technologies.
       </p>
     </motion.section>
   );

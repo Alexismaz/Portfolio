@@ -1,10 +1,12 @@
 import React from "react";
-import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
+import { MdWork } from 'react-icons/md';
 import { LuGraduationCap } from "react-icons/lu";
-import imageHyperAdmin from "../public/874e7a9a-b4ef-4830-a9c7-eb19394d2578.jpg"
-import imageHyperEvents from "../public/641ee185-9e5b-4333-a7ab-3ffb685fc63a.jpg"
-import imagePI from "../public/641ee185-9e5b-4333-a7ab-3ffb685fc63a.jpg"
+import imageLumApp from "../public/lumAppImage.jpeg"
+import imageLumWeb from "../public/lumWebImage.jpeg"
+import imagePadelinkWeb from "../public/padelinkWebImage.jpeg"
+import imageWorkitfyWeb from "../public/workitfyWebImage.jpeg"
+import imageMaylandWeb from "../public/maylandlabsWebImage.jpeg"
 
 export const links = [
   {
@@ -35,12 +37,28 @@ export const links = [
 
 export const experiencesData = [
   {
+    title: "LumForSchool",
+    location: "Guatemala, Gua",
+    description:
+      "Working as a Full Stack Developer, I am the sole developer on the team responsible for building a web platform and a mobile app for both Android and iOS. I developed both from scratch, and the project is still in progress.",
+    icon: React.createElement(MdWork),
+    date: "Sep 2024 - Present",
+  },
+  {
+    title: "Maylandlabs",
+    location: "Buenos Aires, Arg",
+    description:
+      "Worked for 11 months as a Full Stack Developer on various projects. This was my first professional experience. My role included developing and updating websites and mobile applications, as well as training new team members.",
+    icon: React.createElement(MdWork),
+    date: "Feb 2024 - Dic 2024",
+  },
+  {
     title: "HyperEvents",
     location: "Buenos Aires, Arg",
     description:
-      "I work as a full-stack developer on this project. It's the final project of the bootcamp. I'm currently updating this project frequently.",
+      "I work as a full-stack developer on this project. It's the final project of the bootcamp.",
     icon: React.createElement(LuGraduationCap),
-    date: "Sep 2023 - Present",
+    date: "Sep 2023 - Feb 2024",
   },
   {
     title: "Graduated SoyHenry bootcamp",
@@ -62,28 +80,44 @@ export const experiencesData = [
 
 export const projectsData = [
   {
-    title: "HyperEvents Admin",
+    title: "Lum's App",
     description:
-      "I worked as a full-stack developer on this project for 2 months. It's an admin dashboard for the HyperEvents platform. It was created in a separate repository to add more control and security.",
-    tags: ["React", "Next.js", "Typescript", "Tailwind", "Prisma"],
-    imageUrl: imageHyperAdmin,
-    link: "https://hyper-admin-sigma.vercel.app/"
+      "A mobile app for students (iOS and Android) that uses AI to help them solve subject-related doubts, track class schedules, and manage homework submissions.",
+    tags: ["React Native", "Tailwind", "Open AI", "Web Socket"],
+    imageUrl: imageLumApp,
+    link: "https://play.google.com/store/apps/details?id=com.deploydevapp.lumforschool&hl=es_AR/"
   },
   {
-    title: "HyperEvents",
+    title: "Lum for school Web",
     description:
-      "I worked as a full-stack developer on this project for 2 months. It's a platform for buying and selling tickets for all types of events. It's not finished yet.",
-    tags: ["React", "Next.js", "Toaster", "Tailwind", "Redux"],
-    imageUrl: imageHyperEvents,
-    link: "https://hyperevent-fe.vercel.app/"
+      "An AI-powered platform that assists educational institutions by helping teachers assign tasks and students clarify doubts to enhance learning.",
+    tags: ["React", "Tailwind", "Open AI", "Web Socket"],
+    imageUrl: imageLumWeb,
+    link: "https://lumforschool.com/"
   },
   {
-    title: "PI Foods",
+    title: "Padelink Web",
     description:
-      "This is my second project, where I was able to implement everything I learned in the SoyHenry bootcamp individually. It's a Single Page Application (SPA) in which recipe data is consumed from an API to display and sort them, and you can also create recipes.",
-    tags: ["React", "Node.js", "Redux", "CSS"],
-    imageUrl: imagePI,
-    link: "https://pi-food-main-woad.vercel.app"
+      "The platform was created to improve how padel enthusiasts connect and manage court reservations, making it easier to organize matches",
+    tags: ["React", "Typescript", "Tailwind", "Redux", "Docker"],
+    imageUrl: imagePadelinkWeb,
+    link: "https://www.padelink.com.ar/"
+  },
+  {
+    title: "Workitfy Web",
+    description:
+      "A web platform for remote work that helps professionals find shared workspaces, connect with others, and boost productivity and project quality.",
+    tags: ["React", "Typescript", "Tailwind", "Redux", "Docker"],
+    imageUrl: imageWorkitfyWeb,
+    link: "https://workitfy.maylandlabs.com/"
+  },
+  {
+    title: "Mayland labs Web",
+    description:
+      "Collaborated with a teammate to develop a landing page over the course of one month, aimed at demonstrating the company's technical proficiency and attracting potential clients.",
+    tags: ["React", "Tailwind CSS", "Redux"],
+    imageUrl: imageMaylandWeb,
+    link: "https://maylandlabs.com/"
   },
 ] as const;
 
@@ -100,5 +134,11 @@ export const skillsData = [
   "Prisma",
   "Redux",
   "Express",
+  "TypeORM",
   "PostgreSQL",
+  "Web Socket",
+  "Firebase",
+  "Open AI",
+  "JWT",
+  "Expo",
 ] as const;
