@@ -9,10 +9,12 @@ import { HiDownload } from "react-icons/hi";
 import { FaGithubSquare } from "react-icons/fa";
 import { useSectionInView } from "@/lib/hooks";
 import { useActiveSectionContext } from "@/context/active-section-context";
-import alexisImage from "../images/alexis2.jpg"
+import alexisImage from "../images/alexis2.jpg";
+import { Trans, useTranslation } from "react-i18next";
 
 export default function Intro() {
   const { ref } = useSectionInView("Home", 0.5);
+  const { t, i18n } = useTranslation("global");
   const { setActiveSection, setTimeOfLastClick } = useActiveSectionContext();
 
   return (
@@ -63,10 +65,15 @@ export default function Intro() {
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
       >
-        <span className="font-bold">Hello, I'm Alexis Fajian.</span> I'm a{" "}
-        <span className="font-bold">full-stack developer</span>.{" "}
-        <span className="font-bold"></span> I enjoy
-        building <span className="italic">sites & apps</span>
+        <Trans
+          i18nKey="header.title"
+          ns={"global"}
+          components={[
+            <span key="name" className="font-bold" />,
+            <span key="role" className="font-bold" />,
+            <span key="apps" className="italic" />,
+          ]}
+        />
       </motion.h1>
 
       <motion.div
@@ -85,7 +92,7 @@ export default function Intro() {
             setTimeOfLastClick(Date.now());
           }}
         >
-          Contact me here{" "}
+          {t("header.contact_button")}{" "}
           <BsArrowRight className="opacity-70 group-hover:translate-x-1 transition" />
         </Link>
 
@@ -94,7 +101,7 @@ export default function Intro() {
           href="/Alexis-Fajian-CV.pdf"
           download
         >
-          Download CV{" "}
+          {t("header.cv_button")}{" "}
           <HiDownload className="opacity-60 group-hover:translate-y-1 transition" />
         </a>
 

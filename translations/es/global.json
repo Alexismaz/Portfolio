@@ -1,0 +1,46 @@
+{
+  "header": {
+    "title": "Hola, soy <0>Alexis Fajian</0>. Soy <1>desarrollador full-stack</1>. Disfruto crear <2>sitios y aplicaciones</2>.",
+    "contact_button": "Contáctame aquí",
+    "cv_button": "Descargar CV"
+  },
+  "about": {
+    "title": "Sobre mí",
+    "description": "Completé 2 años de <0>Ciencias de la Computación</0>. Por razones personales no pude continuar, pero planeo retomarlas en cuanto pueda. Trabajé en el rubro gastronómico durante 6 años hasta que volví a mi pasión: la programación. Me inscribí en un bootcamp y aprendí <1>desarrollo full-stack</1>. <2>Mi parte favorita de programar</2> es la resolución de problemas. <3>Me encanta</3> la sensación de finalmente encontrar una solución. Mi stack principal incluye <4>React, Redux, Next.js, TypeScript, Tailwind CSS, TypeORM, JWT, Node.js, NestJs y PostgreSQL</4>. También estoy familiarizado con Open AI, Swagger, React Native y Prisma. Siempre busco aprender nuevas tecnologías. Actualmente estoy buscando un <5>puesto full-time</5> como desarrollador de software.",
+    "description_2": "<0>Cuando no estoy programando</0>, disfruto jugar videojuegos, ver películas y pasar tiempo con mi gato. También disfruto <1>aprender cosas nuevas</1>. Actualmente estoy aprendiendo sobre <2>Criptografía</2>. También estoy estudiando blockchain para fortalecer mis conocimientos en tecnologías seguras y descentralizadas."
+  },
+  "projects": {
+    "title": "Mis Proyectos",
+    "description_lum_app": "Una aplicación móvil para estudiantes (iOS y Android) que utiliza IA para ayudarlos a resolver dudas sobre materias, seguir horarios de clases y gestionar entregas de tareas.",
+    "description_lum_web": "Una plataforma impulsada por IA que asiste a instituciones educativas ayudando a los profesores a asignar tareas y a los estudiantes a aclarar dudas para mejorar el aprendizaje.",
+    "description_padelink": "La plataforma fue creada para mejorar la forma en que los aficionados al pádel se conectan y gestionan las reservas de canchas, facilitando la organización de partidos.",
+    "description_workitfy": "Plataforma web para trabajo remoto que conecta profesionales, facilita espacios de trabajo compartidos y mejora la productividad en sus proyectos.",
+    "description_maylandLabs": "Colaboré con un compañero para desarrollar una landing page durante el transcurso de un mes, con el objetivo de demostrar la capacidad técnica de la empresa y atraer potenciales clientes."
+  },
+  "skills": {
+    "title": "Mis Habilidades"
+  },
+  "experience": {
+    "title": "Mi experiencia",
+    "lum": "Trabajo como desarrollador full-stack siendo el único desarrollador del equipo, responsable de crear una plataforma web y una aplicación móvil para Android e iOS. Desarrollé ambos proyectos desde cero, y el proyecto sigue en progreso.",
+    "maylandLabs": "Trabajé durante 11 meses como desarrollador full-stack en varios proyectos. Fue mi primera experiencia profesional. Mi rol incluía desarrollar y actualizar sitios web y aplicaciones móviles, además de capacitar a nuevos miembros del equipo.",
+    "hyperEvents": "Trabajo como desarrollador full-stack en este proyecto. Es el proyecto final del bootcamp.",
+    "bootcamp": "Me gradué después de 4 meses de estudio, obteniendo el título de desarrollador web full-stack.",
+    "restaurant": "Trabajé como gerente de restaurante. Tenía aproximadamente 20 empleados a mi cargo."
+  },
+  "contact": {
+    "title": "Contáctame",
+    "description": "Podés contactarme directamente en <a>alexisfajian@hotmail.com</a> o a través de este formulario.",
+    "placeholder_email": "Tu correo electrónico",
+    "placeholder_message": "Tu mensaje",
+    "submit_button": "Enviar"
+  },
+  "navbar": {
+  "home": "Inicio",
+  "about": "Sobre mí",
+  "projects": "Proyectos",
+  "skills": "Habilidades",
+  "experience": "Experiencia",
+  "contact": "Contacto"
+}
+}
