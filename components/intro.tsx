@@ -14,7 +14,7 @@ import { Trans, useTranslation } from "react-i18next";
 
 export default function Intro() {
   const { ref } = useSectionInView("Home", 0.5);
-  const { t, i18n } = useTranslation("global");
+  const { t } = useTranslation("global");
   const { setActiveSection, setTimeOfLastClick } = useActiveSectionContext();
 
   return (
