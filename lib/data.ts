@@ -11,7 +11,7 @@ import { ProjectProps } from "@/components/project";
 import { experienceProps } from "@/components/experience";
 import { linksProps } from "@/components/header";
 
-export const links = (t: (prop: string) => string): readonly linksProps[] => [
+export const links = (t: (prop: string) => string): linksProps[] => [
   {
     name: t("navbar.home"),
     hash: "#home",
@@ -38,7 +38,7 @@ export const links = (t: (prop: string) => string): readonly linksProps[] => [
   },
 ] as const;
 
-export const experiencesData = (t: (prop: string) => string): readonly experienceProps[] => [
+export const experiencesData = (t: (prop: string) => string): experienceProps[] => [
   {
     title: "LumForSchool",
     location: "Guatemala, Gua",
@@ -76,7 +76,7 @@ export const experiencesData = (t: (prop: string) => string): readonly experienc
   },
 ] as const;
 
-export const projectsData = (t: (prop: string) => string): readonly ProjectProps[] => [
+export const projectsData = (t: (prop: string) => string): ProjectProps[] => [
   {
     title: "Lum's App",
     description: t("projects.description_lum_app"),
