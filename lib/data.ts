@@ -36,7 +36,7 @@ export const links = (t: (prop: string) => string): linksProps[] => [
     name: t("navbar.contact"),
     hash: "#contact",
   },
-] as const;
+];
 
 export const experiencesData = (t: (prop: string) => string): experienceProps[] => [
   {
@@ -74,7 +74,7 @@ export const experiencesData = (t: (prop: string) => string): experienceProps[] 
     icon: React.createElement(FaReact),
     date: "Nov 2018, Nov 2022",
   },
-] as const;
+];
 
 export const projectsData = (t: (prop: string) => string): ProjectProps[] => [
   {
@@ -112,7 +112,7 @@ export const projectsData = (t: (prop: string) => string): ProjectProps[] => [
     imageUrl: imageMaylandWeb,
     link: "https://maylandlabs.com/"
   },
-] as const;
+];
 
 export const skillsData = [
   "HTML",

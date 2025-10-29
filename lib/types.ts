@@ -1,3 +1,3 @@
-import { links } from "./data";
+import { linksProps } from "@/components/header";
 
-export type SectionName = (typeof links)[number]["name"];
+export type SectionName = linksProps["name"]; 
